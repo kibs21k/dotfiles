@@ -129,3 +129,5 @@ Bundle 'wakatime/vim-wakatime'
 set laststatus=2
 "let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+
+autocmd Filetype gitcommit setlocal spell textwidth=72
